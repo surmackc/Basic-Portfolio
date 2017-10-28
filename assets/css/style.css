@@ -1,3 +1,4 @@
+/*Link to the Background Image*/
 body {
 	background-image: url(../images/stonehaven.png);
 }
@@ -14,6 +15,9 @@ body {
 	height: 100px;
 	margin: 0 auto;
 	position: relative;
+	border-width: 2px;
+	border-color: #dddddd;
+	border-style: solid;
 	
 }
 
@@ -38,7 +42,7 @@ h3 {color: #4aaaa5;
 	margin: 10px;
 }
 
-
+/*Navigation Bar*/
 nav {
 	float: right;
 	line-height: 100px;
@@ -46,10 +50,25 @@ nav {
 
 }
 
+/*Navigation Links - probably too much code*/
+a {
+	
+	color: grey;
+	text-decoration: none;
+
+}
+
+.nav-links
+	{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+}
+
 ul {
 	list-style-type: none;
     margin: 0;
     padding: 0;
+
 
 } 
 
@@ -57,21 +76,22 @@ li {
     display: inline;
     width: 60px;
     border-right: 1px solid #bbb;
+	padding: 8px;
+    
 }
 
+/*Takes away | at end of Nav Bar*/
 li:last-child {
     border-right: none;
 }
 
-a {
-	display: inline;
-	padding: 8px;
-}
+
+/*Main Section on Each Page*/
 .main-section {
-	float: left;
+	float:  left;
 	width: 650px;
-	border-width: 1px;
-	border-color: #DCDCDC;
+	border-width: 2px;
+	border-color: #dddddd;
 	border-style: solid;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -79,10 +99,21 @@ a {
 
 }
 
+/*My Profile Pic*/
 .profile-pic {
 	height: 200px;
 	margin: 10px;
 	float: left;
+}
+
+/*Portfolio Pictures*/
+.portfolio-images {
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	display: inline;
+	position: relative;
+
 }
 
 
@@ -95,12 +126,14 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/*Contact Page*/
 form {
 	margin:10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
+/*Submit Button on Contact Page*/
 button {
 
 	background-color: #4aaaa5;
@@ -113,11 +146,12 @@ button {
 
 }
 
+/*Links to GitHub etc.*/
 .social-links {
 	float:right;
 	width:270px;
-	border-width: 1px;
-	border-color: #DCDCDC;
+	border-width: 2px;
+	border-color: #dddddd;
 	border-style: solid;
 	background-color: #ffffff;
 	margin-top: 10px;
